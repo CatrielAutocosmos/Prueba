@@ -4,6 +4,5 @@ function greeter(person) {
 function age(person){
     return ". You are so old, " + person.age;
 }
-var user =  {name : "World", age:5, apocaliptico: false};
-
+var user =  {name : "World", age:50000000, esjebus: true, apocaliptico: false};
 document.body.innerHTML = greeter(user); 
