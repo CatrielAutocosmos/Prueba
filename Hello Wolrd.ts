@@ -4,6 +4,6 @@ function greeter(person) {
 function impersonate(person){
     return person.name;
 }
-var user =  {name : "World"};
+var user =  {name : "Tu"};
 
 document.body.innerHTML = greeter(user); 
