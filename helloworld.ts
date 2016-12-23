@@ -4,6 +4,7 @@ interface User{
     age:number;
     esjebus:boolean;
     apocaliptico:boolean;
+    espibecantina:boolean;
 }
 function greeter(person: User) {
     return "Hello, " + person.name + age(person) + esapocaliptico(person) + esjebus(person);
@@ -18,9 +19,9 @@ function esjebus(person: User){
     return ". You are jebus????, " + person.esjebus 
 }
 
-var userWorld =  {name : "World", age:50000000, esjebus: true, apocaliptico: false};
-var userJesus =  {name : "Jesus", age:2049, esjebus: true, apocaliptico: true};
-var userDiablo =  {name : "Diablo", age:100000000, esjebus: false, apocaliptico: true};
+var userWorld =  {name : "World", age:50000000, esjebus: true, apocaliptico: false, espibecantina: true};
+var userJesus =  {name : "Jesus", age:2049, esjebus: true, apocaliptico: true, espibecantina: true};
+var userDiablo =  {name : "Diablo", age:100000000, esjebus: false, apocaliptico: true, espibecantina: true};
 
 document.body.innerHTML = greeter(userWorld); 
 document.body.innerHTML = greeter(userJesus); 
